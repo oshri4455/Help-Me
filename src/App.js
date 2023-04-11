@@ -53,10 +53,10 @@ setclient([...client,temp])
 })}
 
 {client.map((val,index)=>{
-  return <Route path={'/100'} element = {<PoliceHelp add = {addClient} fullName = {val.fullName}   />} />
+  return <Route path={'/100'} element = {<PoliceHelp add = {addClient} fullName = {val.fullName} password = {val.password}   />} />
 })}
 {client.map((val,index)=>{
-  return <Route path={'/102'} element = {<KibuiHelp add = {addClient} fullName = {val.fullName}  />} />
+  return <Route path={'/102'} element = {<KibuiHelp add = {addClient} fullName = {val.fullName} password = {val.password}  />} />
 })}
 {client.map((val,index)=>{
   return <Route path={'/101'} element = {<MadaHelp add = {addClient} fullName = {val.fullName} password = {val.password}  />} />
