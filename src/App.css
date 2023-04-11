@@ -212,7 +212,7 @@ left: 700px;
 @media(max-width:768px){
   .App {
     text-align: center;
-    width: 400px;
+    width: 100%;
     height: auto;
     align-items: center;
     flex-wrap: wrap;
